@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="id.ac.ui.cs.mobileprogramming.farizkiYazid.jamv2">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:networkSecurityConfig="@xml/network_security_config"
+        >
+
+        <activity
+            android:name="id.ac.ui.cs.mobileprogramming.farizkiYazid.jamv2.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="id.ac.ui.cs.mobileprogramming.farizkiYazid.jamv2.ui.alarm.AddEditAlarmActivity" />
+
+        <activity
+            android:name="id.ac.ui.cs.mobileprogramming.farizkiYazid.jamv2.ui.alarm.AlarmLandingPageActivity"
+            android:theme="@style/AlertLandingPageTheme" />
+
+        <service android:name="id.ac.ui.cs.mobileprogramming.farizkiYazid.jamv2.service.LoadAlarmsService" />
+
+        <receiver android:name="id.ac.ui.cs.mobileprogramming.farizkiYazid.jamv2.service.LoadAlarmsReceiver" />
+
+        <receiver android:name="id.ac.ui.cs.mobileprogramming.farizkiYazid.jamv2.service.AlarmReceiver" />
+
+        <receiver android:name="id.ac.ui.cs.mobileprogramming.farizkiYazid.jamv2.service.BootReceiver" android:enabled="true" android:exported="true">
+            <intent-filter android:priority="${bootPriority}">
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+
+    </application>
+
+</manifest>
