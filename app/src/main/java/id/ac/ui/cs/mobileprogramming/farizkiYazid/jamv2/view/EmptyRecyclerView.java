@@ -6,8 +6,6 @@ import android.view.View;
 
 import androidx.recyclerview.widget.RecyclerView;
 
-//import android.support.v7.widget.RecyclerView;
-
 public class EmptyRecyclerView extends RecyclerView {
 
     private View mEmptyView;

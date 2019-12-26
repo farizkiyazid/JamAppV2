@@ -18,14 +18,13 @@ import androidx.annotation.NonNull;
 import androidx.core.app.NotificationCompat;
 import androidx.core.content.ContextCompat;
 
-import id.ac.ui.cs.mobileprogramming.farizkiYazid.jamv2.R;
-import id.ac.ui.cs.mobileprogramming.farizkiYazid.jamv2.model.Alarm;
-import id.ac.ui.cs.mobileprogramming.farizkiYazid.jamv2.util.AlarmUtils;
-
 import java.util.Calendar;
 import java.util.List;
 
+import id.ac.ui.cs.mobileprogramming.farizkiYazid.jamv2.R;
+import id.ac.ui.cs.mobileprogramming.farizkiYazid.jamv2.model.Alarm;
 import id.ac.ui.cs.mobileprogramming.farizkiYazid.jamv2.ui.alarm.AlarmLandingPageActivity;
+import id.ac.ui.cs.mobileprogramming.farizkiYazid.jamv2.util.AlarmUtils;
 
 import static android.app.NotificationManager.IMPORTANCE_HIGH;
 import static android.app.PendingIntent.FLAG_UPDATE_CURRENT;
@@ -34,9 +33,6 @@ import static android.os.Build.VERSION_CODES.KITKAT;
 import static android.os.Build.VERSION_CODES.LOLLIPOP;
 import static android.os.Build.VERSION_CODES.O;
 
-//import android.support.annotation.NonNull;
-//import android.support.v4.app.NotificationCompat;
-//import android.support.v4.content.ContextCompat;
 
 public final class AlarmReceiver extends BroadcastReceiver {
 

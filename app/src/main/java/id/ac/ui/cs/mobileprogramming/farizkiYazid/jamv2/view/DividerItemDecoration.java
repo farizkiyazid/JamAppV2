@@ -12,9 +12,6 @@ import androidx.recyclerview.widget.RecyclerView;
 import id.ac.ui.cs.mobileprogramming.farizkiYazid.jamv2.R;
 import id.ac.ui.cs.mobileprogramming.farizkiYazid.jamv2.util.ViewUtils;
 
-//import android.support.v4.content.ContextCompat;
-//import android.support.v7.widget.RecyclerView;
-
 public final class DividerItemDecoration extends RecyclerView.ItemDecoration {
 
     private static final int DIVIDER_HEIGHT = (int) ViewUtils.dpToPx(1);

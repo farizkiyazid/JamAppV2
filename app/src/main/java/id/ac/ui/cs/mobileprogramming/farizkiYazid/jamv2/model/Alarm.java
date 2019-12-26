@@ -9,8 +9,6 @@ import androidx.annotation.IntDef;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 
-//import android.support.annotation.IntDef;
-
 public final class Alarm implements Parcelable{
 
     private Alarm(Parcel in) {

@@ -29,8 +29,6 @@ import static id.ac.ui.cs.mobileprogramming.farizkiYazid.jamv2.data.DatabaseHelp
 import static id.ac.ui.cs.mobileprogramming.farizkiYazid.jamv2.data.DatabaseHelper.COL_WED;
 import static id.ac.ui.cs.mobileprogramming.farizkiYazid.jamv2.data.DatabaseHelper._ID;
 
-//import android.support.v4.app.ActivityCompat;
-
 public final class AlarmUtils {
 
     private static final SimpleDateFormat TIME_FORMAT =

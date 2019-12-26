@@ -11,6 +11,7 @@ import androidx.fragment.app.FragmentPagerAdapter;
 import id.ac.ui.cs.mobileprogramming.farizkiYazid.jamv2.R;
 import id.ac.ui.cs.mobileprogramming.farizkiYazid.jamv2.ui.alarm.AlarmMainFragment;
 import id.ac.ui.cs.mobileprogramming.farizkiYazid.jamv2.ui.stopwatch.StopwatchFragment;
+import id.ac.ui.cs.mobileprogramming.farizkiYazid.jamv2.ui.worldclock.WorldClockFragment;
 
 /**
  * A [FragmentPagerAdapter] that returns a fragment corresponding to

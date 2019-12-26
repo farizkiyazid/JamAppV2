@@ -6,13 +6,12 @@ import android.content.Intent;
 
 import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 
-import id.ac.ui.cs.mobileprogramming.farizkiYazid.jamv2.data.DatabaseHelper;
-import id.ac.ui.cs.mobileprogramming.farizkiYazid.jamv2.model.Alarm;
-
 import java.util.ArrayList;
 import java.util.List;
 
-//import android.support.v4.content.LocalBroadcastManager;
+import id.ac.ui.cs.mobileprogramming.farizkiYazid.jamv2.data.DatabaseHelper;
+import id.ac.ui.cs.mobileprogramming.farizkiYazid.jamv2.model.Alarm;
+
 
 public final class LoadAlarmsService extends IntentService {
 

@@ -1,4 +1,4 @@
-package id.ac.ui.cs.mobileprogramming.farizkiYazid.jamv2.ui.main;
+package id.ac.ui.cs.mobileprogramming.farizkiYazid.jamv2.ui.worldclock;
 
 import android.Manifest;
 import android.content.Context;

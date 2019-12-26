@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="16dp"
-    tools:context="id.ac.ui.cs.mobileprogramming.farizkiYazid.jamv2.ui.main.WorldClockFragment">
+    tools:context="id.ac.ui.cs.mobileprogramming.farizkiYazid.jamv2.ui.worldclock.WorldClockFragment">
 
     <TextView
         android:id="@+id/text_view_result"

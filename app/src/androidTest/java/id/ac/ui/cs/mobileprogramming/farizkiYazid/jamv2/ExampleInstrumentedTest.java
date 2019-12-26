@@ -10,8 +10,6 @@ import org.junit.runner.RunWith;
 
 import static org.junit.Assert.assertEquals;
 
-//import androidx.test.ext.junit.runners.AndroidJUnit4;
-
 /**
  * Instrumented test, which will execute on an Android device.
  *
