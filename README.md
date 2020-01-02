@@ -20,4 +20,5 @@ clock membutuhkan internet.
 
 
 # Tampilan
-![Tampilan](gambar2.JPG)
+![Tampilan](screenshots/1.jpg) ![Tampilan2](screenshots/2.jpg)
+![Tampilan3](screenshots/3.jpg) ![Tampilan4](screenshots/4.jpg) ![Tampilan5](screenshots/5.jpg)
