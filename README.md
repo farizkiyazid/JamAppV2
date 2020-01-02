@@ -10,6 +10,7 @@ Aplikasi jam sederhana dengan fitur stopwatch dan alarm
 - Penambahan notifikasi dan service background pada alarm manager.
 - Menghilangkan fitur Timer.
 - Rencana pada slide presentasi :
+
 ![Rencana](gambar1.JPG)
 
 
